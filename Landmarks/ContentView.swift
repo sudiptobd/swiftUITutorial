@@ -9,8 +9,11 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
+        let extractedExpr: Text = Text("Turtle Rock")
+        extractedExpr
             .padding()
+            .font(.title)
+            .foregroundColor(.green)
     }
 }
 
